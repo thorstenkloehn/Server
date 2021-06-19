@@ -2,8 +2,8 @@
 Description=ahrensburg.digital
 
 [Service]
-WorkingDirectory=/Server
-ExecStart=/Server/ahrensburg.digital
+WorkingDirectory=/Server/ahrensburg.digital
+ExecStart=/Server/ahrensburg.digital/ahrensburg.digital
 Restart=always
 # ahrensburg-digital
 RestartSec=10
