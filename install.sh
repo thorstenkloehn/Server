@@ -42,7 +42,9 @@ export PATH=$GOPATH/bin:$HOME/.cargo/bin:$GOROOT/bin:$PATH
  cd /Server
  git submodule update --init --recursive
  sudo cp -u ahrensburg.service /etc/systemd/system/ahrensburg.service
+ cd /Server/dokument
  sudo /root/.composer/vendor/daux/daux.io/bin/daux generate
+ cd /Server/ahrensburg.digital
 go build
 sudo  systemctl enable ahrensburg.service
 sudo  systemctl start ahrensburg.service
