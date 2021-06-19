@@ -12,7 +12,7 @@ php_fastcgi unix//run/php/php7.4-fpm.sock
 }
 dokument.ahrensburg.digital {
 
- root * /Server/Dokument
+ root * /Server/Dokument/docs/static
  file_server
  encode zstd gzip
 }

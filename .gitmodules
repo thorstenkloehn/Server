@@ -4,3 +4,6 @@
 [submodule "dokument"]
 	path = dokument
 	url = https://github.com/thorstenkloehn/dokument.git
+[submodule "statik"]
+	path = statik
+	url = https://github.com/thorstenkloehn/statik.git
