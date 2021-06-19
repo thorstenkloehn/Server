@@ -1,0 +1,6 @@
+[submodule "ahrensburg.digital"]
+	path = ahrensburg.digital
+	url = https://github.com/thorstenkloehn/ahrensburg.digital.git
+[submodule "dokument"]
+	path = dokument
+	url = https://github.com/thorstenkloehn/dokument.git
