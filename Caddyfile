@@ -1,8 +1,13 @@
-ahrensburg.digital {
- reverse_proxy localhost:8080
-  encode zstd gzip
-}
 
+ahrensburg.digital {
+
+
+ root * /Server/ahrensburg.digital/output
+ file_server
+ encode zstd gzip
+
+
+}
 php.ahrensburg.digital {
 root * /Server/php
 php_fastcgi unix//run/php/php7.4-fpm.sock
