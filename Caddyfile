@@ -19,7 +19,7 @@ dokument.ahrensburg.digital {
 
 statik.ahrensburg.digital {
 
- root * /Server/Statik
+ root * /Server/statik
  file_server
  encode zstd gzip
 }
