@@ -33,5 +33,5 @@ sudo apt install php-fpm php-common php-mysql php-gmp php-curl php-intl php-mbst
 mkdir /wordpress
 cd /wordpress
 wget https://de.wordpress.org/latest-de_DE.zip
-
+unzip latest-de_DE.zip
 ```
