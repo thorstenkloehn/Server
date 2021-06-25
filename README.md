@@ -30,4 +30,8 @@ sudo apt-get install mysql-server
 sudo apt install php-fpm php-common php-mysql php-gmp php-curl php-intl php-mbstring php-xmlrpc php-gd php-xml php-cli php-zip
 
 
+mkdir /wordpress
+cd /wordpress
+wget https://de.wordpress.org/latest-de_DE.zip
+
 ```
