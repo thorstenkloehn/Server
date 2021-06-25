@@ -9,7 +9,7 @@ ahrensburg.digital {
 
 }
 wordpress.ahrensburg.digital {
-root * /Server/php
+root * /wordpress/wordpress
 php_fastcgi unix//run/php/php7.4-fpm.sock
  try_files {path} {path}/ /index.php?{query}
  file_server
