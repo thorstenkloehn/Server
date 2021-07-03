@@ -1,10 +1,4 @@
-moodle.ahrensburg.digital {
-root * /moodle/moodle
-php_fastcgi unix//run/php/php7.4-fpm.sock
- try_files {path} {path}/ /index.php?{query}
- file_server
-  encode zstd gzip
-}
+
 
 
 
