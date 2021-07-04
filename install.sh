@@ -39,6 +39,7 @@ if [ -d /usr/local/go/ ] ; then
 export GOROOT=/usr/local/go
 export GOPATH=/go
 export PATH=$GOPATH/bin:$HOME/.cargo/bin:$GOROOT/bin:$PATH
+go install github.com/gohugoio/hugo@latest
  cd /Server
  git submodule update --init --recursive
  sudo cp -u ahrensburg.service /etc/systemd/system/ahrensburg.service
