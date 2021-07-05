@@ -1,5 +1,12 @@
 
+ahrensburg.schule {
 
+ root * /Server/ahrensburg.schule/static
+ file_server
+ encode zstd gzip
+}
+
+}
 
 
 ahrensburg.digital {
@@ -11,13 +18,7 @@ ahrensburg.digital {
 
 
 }
-wordpress.ahrensburg.digital {
-root * /wordpress/wordpress
-php_fastcgi unix//run/php/php7.4-fpm.sock
- try_files {path} {path}/ /index.php?{query}
- file_server
-  encode zstd gzip
-}
+
 dokument.ahrensburg.digital {
 
  root * /Server/dokument/static
