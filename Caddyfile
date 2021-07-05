@@ -1,11 +1,8 @@
-
 ahrensburg.schule {
 
  root * /Server/ahrensburg.schule/static
  file_server
  encode zstd gzip
-}
-
 }
 
 
