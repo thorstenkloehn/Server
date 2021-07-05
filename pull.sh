@@ -8,6 +8,7 @@ git submodule update --recursive --remote
 go build
 cd /Server/dokument
  sudo /root/.composer/vendor/daux/daux.io/bin/daux generate
-
+ cd /Server/ahrenaburg.schule
+  sudo /root/.composer/vendor/daux/daux.io/bin/daux generate
 sudo  systemctl stop ahrensburg.service
 sudo  systemctl start ahrensburg.service

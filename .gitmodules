@@ -7,3 +7,7 @@
 [submodule "statik"]
 	path = statik
 	url = https://github.com/thorstenkloehn/statik.git
+
+[submodule "ahrensburg.schule"]
+	path = ahrensburg.schule
+	url = https://github.com/thorstenkloehn/ahrensburg.schule.git
