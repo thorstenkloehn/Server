@@ -45,7 +45,7 @@ export PATH=$GOPATH/bin:$HOME/.cargo/bin:$GOROOT/bin:$PATH
  sudo cp -u ahrensburg.service /etc/systemd/system/ahrensburg.service
  cd /Server/dokument
  sudo /root/.composer/vendor/daux/daux.io/bin/daux generate
- cd /Server/ahrenaburg.schule
+ cd /Server/ahrensburg.schule
   sudo /root/.composer/vendor/daux/daux.io/bin/daux generate
  cd /Server/ahrensburg.digital
 go build
