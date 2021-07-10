@@ -24,14 +24,3 @@ sudo apt update
 sudo apt-get install mysql-server
 
 ```
-## Wordpress
-
-```
-sudo apt install php-fpm php-common php-mysql php-gmp php-curl php-intl php-mbstring php-xmlrpc php-gd php-xml php-cli php-zip
-
-
-mkdir /wordpress
-cd /wordpress
-wget https://de.wordpress.org/latest-de_DE.zip
-unzip latest-de_DE.zip
-```
