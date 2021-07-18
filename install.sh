@@ -12,7 +12,7 @@ sudo apt-get install composer
   echo "node ist Vorhanden"
 else
  echo "node wird Installiert"
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash
 sudo apt-get install -y nodejs
 fi
 
