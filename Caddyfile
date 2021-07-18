@@ -1,9 +1,7 @@
 
-blog.ahrensburg.schule {
-root * /wordpress/wordpress
-php_fastcgi unix//run/php/php7.4-fpm.sock
- try_files {path} {path} {path) {path)/ /index.php?{query}
- file_server
+blog.ahrensburg.blog {
+reverse_proxy localhost:2368
+
   encode zstd gzip
 }
 ahrensburg.schule {
