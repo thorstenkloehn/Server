@@ -1,5 +1,5 @@
 
-blog.ahrensburg.blog {
+blog.ahrensburg.digital {
 reverse_proxy localhost:2368
 
   encode zstd gzip
